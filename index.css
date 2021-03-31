@@ -1,0 +1,33 @@
+/* The Body */
+body{
+
+	/* Distance Between The Boundry Of Page And The Content Within Propotional To Viewport Height(vh)*/
+	padding-top: 5vh;
+	
+	/* The Background Color For Night Sky*/
+	background-color: #0c1445;
+}
+
+/* The Header 'I Am WhiteQuotes' */
+#Name-Heading{
+
+	/* Appearance  */
+	text-align: center;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+#Work-Heading{
+
+	/* Positioning Propotional To The Viewport Height(vh) Viewport Width(vw)*/
+	position: fixed;
+	top: 6.5vh;
+	left: 42vw;
+
+	/* I Dont Know As Well :) ; */
+	display: inline;
+	
+	/* Appearance */
+	color: rgba(255,255,255,0);
+	font-size: 30px;
+}
