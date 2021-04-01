@@ -1,3 +1,9 @@
+/* The Fonts Used */
+@font-face {
+  font-family: Lemonada;
+  src: url(Fonts/Lemonada.ttf);
+}
+
 /* The Body */
 body{
 
@@ -21,7 +27,7 @@ body{
 
 	/* Positioning Propotional To The Viewport Height(vh) Viewport Width(vw)*/
 	position: fixed;
-	top: 6.5vh;
+	top: 5vh;
 	left: 42vw;
 
 	/* I Dont Know As Well :) ; */
@@ -31,6 +37,7 @@ body{
 	color: rgba(255,255,255,0);
 	font-size: 30px;
 }
+
 #footer{
 	background-color: #00000000;
 	position: fixed;
@@ -41,10 +48,12 @@ body{
 
 #GitHub-Header{
 	color: #bbbbbb;
+	display: inline;
 	position: fixed;
-	right: 5vw;
+	right: 1vw;
 	bottom: 1vh;
 	font-size: 25px;
+	font-family: Lemonada;
 }
 
 #GitHub-Link{
