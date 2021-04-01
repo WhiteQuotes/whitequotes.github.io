@@ -8,7 +8,7 @@
 body{
 
 	/* Distance Between The Boundry Of Page And The Content Within Propotional To Viewport Height(vh)*/
-	padding-top: 5vh;
+	padding-top: 5.5vh;
 	
 	/* The Background Color For Night Sky*/
 	background-color: #0c1445;
@@ -27,7 +27,7 @@ body{
 
 	/* Positioning Propotional To The Viewport Height(vh) Viewport Width(vw)*/
 	position: fixed;
-	top: 10vh;
+	top: 5vh;
 	left: 42vw;
 
 	/* I Dont Know As Well :) ; */
