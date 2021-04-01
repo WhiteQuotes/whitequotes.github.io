@@ -46,3 +46,8 @@ body{
 	bottom: 1vh;
 	font-size: 25px;
 }
+
+#GitHub-Link{
+	color: #bbbbbb;
+	text-decoration: none;
+}
