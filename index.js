@@ -12,7 +12,7 @@ anime.timeline({})
 			targets: '#Name-Heading',
 
 			// Move To The Left By 234 px
-			translateX: -234,
+			translateX: -245,
 
 			// Move Smoothly
 			easing: 'easeInOutQuad',
