@@ -1,0 +1,105 @@
+/* The Fonts Used */
+@font-face {
+  font-family: Lemonada;
+  src: url(.../Fonts/Lemonada.ttf);
+}
+
+/* The Body */
+body{
+
+	/* Distance Between The Boundry Of Page And The Content Within Propotional To Viewport Height(vh)*/
+	padding-top: 5.2vh;
+	
+	/* The Background Color For Night Sky*/
+	background-color: #0c1445;
+}
+
+/* The Info Content */
+main{
+	/* Protect Content From Hiding Into The Nav */
+	margin-left: 12vw;
+}
+
+/* General Text Properties Which Should Be Same */
+h1, h3, p, a, li{
+	color: #ffffff;
+	font-family: Lemonada;
+	text-align: center;
+}
+
+/* 'About Me' Header */
+h1{
+	margin-bottom: 15vh;
+}
+
+/* H3 Header */
+h3{
+	font-size: 2.9vh;
+}
+
+/* Paragraphs Of Info */
+p{
+	padding: 12vh;
+}
+
+/* Lists In Info */
+ul,ol{
+	list-style-type: none;
+}
+
+/* The Class Of All The Hoverable Text */
+.Nav-Years{
+	/* Appearance */
+	color: #0c1445;
+	font-size: 3vw;
+	margin-bottom: 5vh;
+
+	/* Center Alignment */
+	text-align: center;
+	display: block;
+}
+
+/* Image */
+#img{
+	display: block;
+	margin: auto;
+	width: 86vw;
+	height: 86vh;
+}
+
+/* Nav Bar Ofcourse */
+#nav{
+
+	/* Appearance */
+	background-color: #bbbbbb;
+	width: 8vw;
+	height: 100vh;
+	padding: 2vw;
+
+	/* Positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#GitHub-Header{
+
+	display: inline;
+
+	/* Appearance */
+	color: #ffffff;
+	font-size: 25px;
+	font-family: Lemonada;
+
+	/* Positioning To Bottom Left*/
+	position: fixed;
+	right: 1vw;
+	bottom: 1vh;
+}
+
+#GitHub-Link{
+
+	/* Appearance */
+	color: inherit;
+	text-decoration: none;
+}
